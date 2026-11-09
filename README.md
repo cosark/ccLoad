@@ -208,6 +208,10 @@ curl -X POST http://localhost:8080/v1/messages \
 
 The client protocol does not have to match the upstream; ccLoad converts between them when they differ. More endpoints and options are in the [Usage Guide](docs/guide/usage.md).
 
+## One-Click Deploy
+
+[![Deploy on RepoCloud](https://d16t0pc4846x52.cloudfront.net/deploylobe.svg)](https://repocloud.io/details/ccLoad/)
+
 ## Troubleshooting
 
 - **The service exits right after starting**: `CCLOAD_PASS` is not set. If the password contains `$`, wrap it in single quotes in `.env`, for example `CCLOAD_PASS='abc$def'`.
